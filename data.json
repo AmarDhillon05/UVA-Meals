@@ -1,0 +1,621 @@
+[
+    {
+        "name": "Roast Pork Adobo",
+        "nutrition": {
+            "Calories": "200",
+            "Total Fat": "9 g",
+            "Cholesterol": "75 mg",
+            "Sodium": "80 mg",
+            "Total Carbohydrates": "0 g",
+            "Protein": "27 g"
+        }
+    },
+    {
+        "name": "Spanish Rice",
+        "nutrition": {
+            "Calories": "100",
+            "Total Fat": "2 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "70 mg",
+            "Total Carbohydrates": "19 g",
+            "Protein": "2 g"
+        }
+    },
+    {
+        "name": "Brazilian Collard Greens",
+        "nutrition": {
+            "Calories": "30",
+            "Total Fat": "2 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "55 mg",
+            "Total Carbohydrates": "3 g",
+            "Protein": "1 g"
+        }
+    },
+    {
+        "name": "Chicken & Veggie Stir-Fry",
+        "nutrition": {
+            "Calories": "120",
+            "Total Fat": "4.5 g",
+            "Cholesterol": "45 mg",
+            "Sodium": "240 mg",
+            "Total Carbohydrates": "9 g",
+            "Protein": "11 g"
+        }
+    },
+    {
+        "name": "Seasoned Rice",
+        "nutrition": {
+            "Calories": "130",
+            "Total Fat": "1.5 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "75 mg",
+            "Total Carbohydrates": "26 g",
+            "Protein": "3 g"
+        }
+    },
+    {
+        "name": "Steamed Fresh Broccoli",
+        "nutrition": {
+            "Calories": "20",
+            "Total Fat": "0 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "20 mg",
+            "Total Carbohydrates": "4 g",
+            "Protein": "2 g"
+        }
+    },
+    {
+        "name": "Classic Cheese Pizza",
+        "nutrition": {
+            "Calories": "270",
+            "Total Fat": "7 g",
+            "Cholesterol": "20 mg",
+            "Sodium": "730 mg",
+            "Total Carbohydrates": "39 g",
+            "Protein": "13 g"
+        }
+    },
+    {
+        "name": "Pepperoni Pizza",
+        "nutrition": {
+            "Calories": "290",
+            "Total Fat": "10 g",
+            "Cholesterol": "25 mg",
+            "Sodium": "820 mg",
+            "Total Carbohydrates": "39 g",
+            "Protein": "14 g"
+        }
+    },
+    {
+        "name": "Pepperoni & Sausage Pizza",
+        "nutrition": {
+            "Calories": "330",
+            "Total Fat": "15 g",
+            "Cholesterol": "30 mg",
+            "Sodium": "710 mg",
+            "Total Carbohydrates": "35 g",
+            "Protein": "15 g"
+        }
+    },
+    {
+        "name": "Grilled Seasoned Chicken Breast",
+        "nutrition": {
+            "Calories": "160",
+            "Total Fat": "5 g",
+            "Cholesterol": "85 mg",
+            "Sodium": "120 mg",
+            "Total Carbohydrates": "0 g",
+            "Protein": "26 g"
+        }
+    },
+    {
+        "name": "Char-Grilled Turkey Burger",
+        "nutrition": {
+            "Calories": "330",
+            "Total Fat": "10 g",
+            "Cholesterol": "45 mg",
+            "Sodium": "570 mg",
+            "Total Carbohydrates": "29 g",
+            "Protein": "20 g"
+        }
+    },
+    {
+        "name": "Grilled Black Bean Burger",
+        "nutrition": {
+            "Calories": "310",
+            "Total Fat": "6 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "690 mg",
+            "Total Carbohydrates": "52 g",
+            "Protein": "19 g"
+        }
+    },
+    {
+        "name": "Hamburger",
+        "nutrition": {
+            "Calories": "330",
+            "Total Fat": "18 g",
+            "Cholesterol": "50 mg",
+            "Sodium": "290 mg",
+            "Total Carbohydrates": "26 g",
+            "Protein": "15 g"
+        }
+    },
+    {
+        "name": "Jalapeno Slaw",
+        "nutrition": {
+            "Calories": "35",
+            "Total Fat": "2.5 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "210 mg",
+            "Total Carbohydrates": "3 g",
+            "Protein": "1 g"
+        }
+    },
+    {
+        "name": "Crispy Shoestring French Fries",
+        "nutrition": {
+            "Calories": "90",
+            "Total Fat": "2.5 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "250 mg",
+            "Total Carbohydrates": "13 g",
+            "Protein": "1 g"
+        }
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "Homestyle Mashed Potatoes",
+        "nutrition": {
+            "Calories": "130",
+            "Total Fat": "3.5 g",
+            "Cholesterol": "10 mg",
+            "Sodium": "80 mg",
+            "Total Carbohydrates": "22 g",
+            "Protein": "2 g"
+        }
+    },
+    {
+        "name": "Steamed Peas",
+        "nutrition": {
+            "Calories": "70",
+            "Total Fat": "0 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "95 mg",
+            "Total Carbohydrates": "12 g",
+            "Protein": "5 g"
+        }
+    },
+    {
+        "name": "Garlic Toast",
+        "nutrition": {
+            "Calories": "190",
+            "Total Fat": "9 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "300 mg",
+            "Total Carbohydrates": "23 g",
+            "Protein": "4 g"
+        }
+    },
+    {
+        "name": "Chicken Piccata",
+        "nutrition": {
+            "Calories": "130",
+            "Total Fat": "4 g",
+            "Cholesterol": "80 mg",
+            "Sodium": "420 mg",
+            "Total Carbohydrates": "3 g",
+            "Protein": "17 g"
+        }
+    },
+    {
+        "name": "Veggie & Black Bean Saute",
+        "nutrition": {
+            "Calories": "130",
+            "Total Fat": "3.5 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "50 mg",
+            "Total Carbohydrates": "23 g",
+            "Protein": "4 g"
+        }
+    },
+    {
+        "name": "Vegan Nachos",
+        "nutrition": {
+            "Calories": "300",
+            "Total Fat": "8 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "1200 mg",
+            "Total Carbohydrates": "51 g",
+            "Protein": "11 g"
+        }
+    },
+    {
+        "name": "Miso-Ginger Ramen Noodle Bowl",
+        "nutrition": {
+            "Calories": "550",
+            "Total Fat": "11 g",
+            "Cholesterol": "70 mg",
+            "Sodium": "2320 mg",
+            "Total Carbohydrates": "76 g",
+            "Protein": "35 g"
+        }
+    },
+    {
+        "name": "Overnight Oatmeal",
+        "nutrition": {}
+    },
+    {
+        "name": "Chilled Grilled Vegetables",
+        "nutrition": {
+            "Calories": "60",
+            "Total Fat": "3.5 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "115 mg",
+            "Total Carbohydrates": "8 g",
+            "Protein": "1 g"
+        }
+    },
+    {
+        "name": "Dilled Potato Salad",
+        "nutrition": {
+            "Calories": "130",
+            "Total Fat": "8 g",
+            "Cholesterol": "less than 5 mg",
+            "Sodium": "210 mg",
+            "Total Carbohydrates": "14 g",
+            "Protein": "2 g"
+        }
+    },
+    {
+        "name": "Granola",
+        "nutrition": {}
+    },
+    {
+        "name": "Mediterranean Pasta Salad",
+        "nutrition": {
+            "Calories": "100",
+            "Total Fat": "5 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "170 mg",
+            "Total Carbohydrates": "12 g",
+            "Protein": "3 g"
+        }
+    },
+    {
+        "name": "Roasted Cauliflower",
+        "nutrition": {
+            "Calories": "70",
+            "Total Fat": "5 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "170 mg",
+            "Total Carbohydrates": "6 g",
+            "Protein": "2 g"
+        }
+    },
+    {
+        "name": "Roasted Mushrooms",
+        "nutrition": {
+            "Calories": "110",
+            "Total Fat": "12 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "95 mg",
+            "Total Carbohydrates": "2 g",
+            "Protein": "2 g"
+        }
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {
+            "Calories": "280",
+            "Total Fat": "21 g",
+            "Cholesterol": "65 mg",
+            "Sodium": "210 mg",
+            "Total Carbohydrates": "1 g",
+            "Protein": "20 g"
+        }
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {}
+    },
+    {
+        "name": "",
+        "nutrition": {
+            "Calories": "5",
+            "Total Fat": "0 g",
+            "Cholesterol": "0 mg",
+            "Sodium": "350 mg",
+            "Total Carbohydrates": "1 g",
+            "Protein": "0 g"
+        }
+    }
+]
