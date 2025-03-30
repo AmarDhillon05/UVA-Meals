@@ -11,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <h1 className="text-3xl font-bold underline">
-      TRACK UR FUCKING CALORIEs!
+      hoomeals - by umdeaston28
     </h1>
   )
 }

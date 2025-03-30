@@ -13,17 +13,25 @@ const userSchema = new Schema({
     type: Number,
     default: 0,
   },
+  weight: {
+    type: Number,
+    default: 150,
+  },
+  goal: {
+    type: Number,
+    default: 150,
+  },
   protein: {
     type: Number,
     default: 0,
   },
   calorie_goals: {
     type: Number,
-    required: false,
+    default: 2000,
   },
   protein_goals: {
     type: Number,
-    required: false,
+    default: 80,
   },
   restriction: {
     type: String,

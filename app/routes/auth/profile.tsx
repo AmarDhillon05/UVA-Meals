@@ -6,6 +6,8 @@ export default function UserProfile() {
     firstName: "",
     lastName: "",
     calorie_goals: "",
+    weight: "",
+    goal: "",
     protein_goals: "",
     restriction: "none",
     allergies: "",
@@ -30,7 +32,7 @@ export default function UserProfile() {
 
     try {
       // Basic validation
-      if (!form.calorie_goals || !form.protein_goals) {
+      if (!form.weight || !form.goal) {
         setMessage("Please fill out all required fields.");
         return;
       }
@@ -76,37 +78,34 @@ export default function UserProfile() {
       <form id="profileForm" onSubmit={handleSubmit}>
         {/* Calorie Goal */}
         <div className="text-xl text-gray-600 text-left mt-10">
-          How many calories do you aim to consume a day?
+          What is your current weight?
         </div>
         <input
           type="number"
-          id="calorie_goals"
-          name="calorie_goals"
-          value={form.calorie_goals}
-          placeholder="1500 cal"
+          name="weight"
+          min={0}
+          value={form.weight}
+          placeholder="150lbs"
           onChange={handleChange}
           required
           className="text-left border-b-4 border-slate-500 text-5xl text-slate-800 p-2 mt-5 w-full outline-none"
         />
-
-        {/* Protein Goal */}
         <div className="text-xl text-gray-600 text-left mt-10">
-          How much protein do you intend to consume a day?
+          What is your target weight?
         </div>
         <input
           type="number"
-          id="protein_goals"
-          name="protein_goals"
-          value={form.protein_goals}
-          placeholder="0g"
+          name="goal"
+          min={0}
+          value={form.goal}
+          placeholder="140lbs"
           onChange={handleChange}
           required
           className="text-left border-b-4 border-slate-500 text-5xl text-slate-800 p-2 mt-5 w-full outline-none"
         />
-
         {/* Dietary Restrictions */}
         <div className="text-xl text-gray-600 text-left mt-10">
-          Do you have any dietary restrictions?
+          Do you have any dietary restrictions? (optional)
         </div>
         <select
           id="restriction"
@@ -125,7 +124,7 @@ export default function UserProfile() {
 
         {/* Allergies */}
         <div className="text-xl text-gray-600 text-left mt-10">
-          Any allergies? (comma-separated)
+          Any allergies? (optional)
         </div>
         <input
           type="text"
