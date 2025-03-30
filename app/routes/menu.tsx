@@ -10,7 +10,7 @@ export default function Menu() {
   async function getData() {
     const response = await fetch(dburi);
     let data = await response.json();
-    //data = data.menu; ONLY FOR SIDHARTHS DATABASE
+    //data = data.menu; //ONLY FOR SIDHARTHS DATABASE
     data = JSON.parse(data)
     Object.keys(data)
       .filter((key) => data[key].name !== "")
@@ -66,7 +66,7 @@ export default function Menu() {
         </div>
 
 
-        <div className="flex flex-wrap justify-start px-8 py-4 bg-white shadow-md rounded-lg mb-8">
+        <div className="flex flex-wrap justify-start px-8 py-4 bg-white shadow-md rounded-lg mb-8 container">
                 <p className="font-semibold text-lg">Filter by:</p>
 
                 <div className="flex items-center mx-4">

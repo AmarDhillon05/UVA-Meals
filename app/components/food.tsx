@@ -25,8 +25,9 @@ export default function Food(props) {
   const nutritionData = props.item?.nutrition
     ? Object.entries(props.item.nutrition).map(([key, value]) => {
         const numericValue = parseFloat(value);
+        const split = key.split(" ")
         return {
-          name: key,
+          name: split[split.length - 1],
           value: isNaN(numericValue) ? 0 : numericValue,
         };
       })
@@ -54,9 +55,15 @@ export default function Food(props) {
             <ResponsiveContainer width="100%" height={300}>
               <BarChart
                 data={nutritionData}
-                margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+                margin={{ top: 20, right: 30, left: 20, bottom: 65 }}
               >
-                <XAxis dataKey="name" tick={{ fill: "#00205B" }} />
+                <XAxis 
+                  dataKey="name" 
+                  tick={{ fill: "#00205B" }} 
+                  angle={-45} 
+                  textAnchor="end" 
+                  interval={0} 
+                />
                 <YAxis tick={{ fill: "#00205B" }} />
                 <Tooltip />
                 <Bar dataKey="value" barSize={40}>

@@ -6,4 +6,5 @@ export default [
   route("/auth/log-in", "routes/auth/log-in.tsx"),
   route("/auth/profile", "routes/auth/profile.tsx"),
   route("/info/menu", "routes/menu.tsx"),
+  route("/tracker", "routes/tracker.tsx")
 ] satisfies RouteConfig;
