@@ -2,7 +2,7 @@
 ## 📌 Features
 - 📋 View College Dining Menu – See food names, descriptions, and calories
 - 🔍 Food Details – Get macro breakdowns & nutrition info
-- 🏋️‍♂️ User Profile – Enter weight, height, and fitness goals
+- 🏋️‍♂️ User Profile – Enter fitness goals such as current weight and desired weight
 - 🍽️ Meal Recommendations – Personalized suggestions for breakfast, lunch, & dinner
 
 ## 🛠️ Tech Stack
