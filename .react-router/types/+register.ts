@@ -11,4 +11,5 @@ type Params = {
   "/auth/register": {};
   "/auth/log-in": {};
   "/auth/profile": {};
+  "/info/menu": {};
 };

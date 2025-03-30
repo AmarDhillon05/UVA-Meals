@@ -30,7 +30,7 @@ export default function Register() {
         );
 
         localStorage.setItem("data", JSON.stringify(data));
-        navigate("/auth/profile");
+        navigate("/info/menu");
       } else {
         alert("Please fill out all fields!");
       }

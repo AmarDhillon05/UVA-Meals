@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 export default function UserProfile() {
+  const navigate = useNavigate();
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
@@ -54,7 +56,7 @@ export default function UserProfile() {
       );
 
       if (data.success) {
-        setMessage("Profile saved successfully! 🎉");
+        navigate("/info/menu");
       } else {
         setMessage("Failed to update profile. Please try again.");
       }
