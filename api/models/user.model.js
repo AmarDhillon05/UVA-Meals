@@ -11,11 +11,11 @@ const userSchema = new Schema({
   },
   calories: {
     type: Number,
-    required: false,
+    default: 0,
   },
   protein: {
     type: Number,
-    required: false,
+    default: 0,
   },
   calorie_goals: {
     type: Number,
