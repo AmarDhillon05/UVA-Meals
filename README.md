@@ -9,7 +9,7 @@
 - 👉 https://prod.liveshare.vsengsaas.visualstudio.com/join?98E878202201DF96C8610221BC4CEDC56DDD
 
 ## 🛠️ Tech Stack
+- Languages: HTML, CSS, JavaScript, TypeScript, Python
 - Frontend: React.js, TailwindCSS, TypeScript
-- Backend: Node.js, Express.js
-- Data: Beautiful Soup 4, Selenium
-- Databases: MongoDB 
+- Backend: Node.js, Express.js, Beautiful Soup 4, Selenium, Bcrypt, MongoDB 
+- Tools: MongoDB Atlas, Vercel
