@@ -1,4 +1,5 @@
 import type { Route } from "./+types/home";
+import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -10,7 +11,6 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <h1 className="text-3xl font-bold underline">
-      TRACK UR FUCKING CALORIEs!
+      hoomeals - by umdeaston28
     </h1>
   )
-}

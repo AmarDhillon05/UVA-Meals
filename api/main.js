@@ -33,22 +33,22 @@ app.post("/api/users/create", async (req, res) => {
       };
 
       const user = await User.create(body);
-      res.status(200).json(user);
+      res.status(200).json({ user, success: true });
     }
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
 });
 
-app.get("/api/users/login", async (req, res) => {
+app.post("/api/users/sign-in", async (req, res) => {
   try {
     let user = await User.findOne({ username: req.body.username });
 
     if (!user) return res.status(404).json({ error: "user cannot be found" });
 
     if (req.body.username && req.body.password) {
-      if (!bcrypt.compare(req.body.password, user.password))
-        return res.status(403).json({ error: "unauthorized access" });
+      if (!(await bcrypt.compare(req.body.password, user.password)))
+        return res.status(401).json({ error: "unauthorized access" });
       else {
         res.status(200).json({ user, success: true });
       }
@@ -58,9 +58,9 @@ app.get("/api/users/login", async (req, res) => {
   }
 });
 
-app.get("/api/users/update", async (req, res) => {
+app.put("/api/users/update/:id", async (req, res) => {
   try {
-    let user = await findByIdAndUpdate(req.body._id, req.body);
+    let user = await User.findByIdAndUpdate(req.params.id, req.body);
     res.status(200).json({ user, success: true });
   } catch (e) {
     res.status(500).json({ error: e.message });

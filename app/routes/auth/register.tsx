@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 export default function Register() {
+  const navigate = useNavigate();
   // State for form values
   const [form, setForm] = useState({
     username: "",
@@ -34,21 +36,21 @@ export default function Register() {
             body
           );
 
-          localStorage.setItem("data", JSON.stringify(data)); 
-          alert("Successful Sign Up! 🎉");
+          localStorage.setItem("data", JSON.stringify(data));
+          navigate("/auth/profile");
           console.log(data);
         }
       } else {
         alert("Please fill out all fields!");
       }
-    } catch (e) {
+    } catch (e: any) {
       console.error(e.message);
       alert("An error occurred. Please try again.");
     }
   };
 
   return (
-    <div className="font-bold">
+    <div className="container font-bold mx-auto p-5 max-w-xl bg-white shadow-md rounded-md">
       <img
         src="../../../public/uvahoos.png"
         className="w-16 h-16 m-auto mt-20"
@@ -62,14 +64,14 @@ export default function Register() {
         </div>
       </h1>
 
-      <div className="text-center mt-16 text-slate-600">
+      <div className="text-center text-slate-600">
         <input
           type="text"
           name="username"
           placeholder="Username"
           value={form.username}
           onChange={handleChange}
-          className="text-left border-b-2 border-slate-300 p-2 w-3/4 outline-none"
+          className="text-left bg-slate-100 rounded text-slate-800 p-2 mt-5 w-3/4 outline-none"
         />
         <br />
         <input
@@ -78,7 +80,7 @@ export default function Register() {
           placeholder="Password"
           value={form.password}
           onChange={handleChange}
-          className="text-left border-b-2 border-slate-300 p-2 mt-5 w-3/4 outline-none"
+          className="text-left bg-slate-100 rounded text-slate-800 p-2 mt-5 w-3/4 outline-none"
         />
         <br />
         <input
@@ -87,7 +89,7 @@ export default function Register() {
           placeholder="Confirm Password"
           value={form.passwordConfirm}
           onChange={handleChange}
-          className="text-left border-b-2 border-slate-300 p-2 mt-5 w-3/4 outline-none"
+          className="text-left bg-slate-100 rounded text-slate-800 p-2 mt-5 w-3/4 outline-none"
         />
         <br />
         <button
