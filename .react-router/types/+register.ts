@@ -12,4 +12,5 @@ type Params = {
   "/auth/log-in": {};
   "/auth/profile": {};
   "/info/menu": {};
+  "/tracker": {};
 };
