@@ -29,7 +29,7 @@ export default function Tracker() {
   const [trackedMeals, setTrackedMeals] = useState({});
   const [trackedNutrition, setTrackedNutrition] = useState<any>({});
 
-  const [graphData, setGraphData] = useState([]);
+  const [showSearch, setShowSearch] = useState(false)
 
   async function getData() {
     const response = await fetch(dburi);
@@ -155,32 +155,34 @@ export default function Tracker() {
         <div className="border-gray-200">
           <div className="container mx-auto px-4">
             {Object.keys(trackedMeals).map((key, idx) => {
-              let nut = {};
-              trackedMeals[key].forEach((macro) => {
-                nut[macro.name] = macro.value;
-              });
-              return (
-                <div
-                  key={idx}
-                  className="w-full max-w-3xl text-center border-b-6 border-[#F67D31] bg-white shadow-lg pb-2 pt-2 transition duration-300 hover:bg-slate-200 cursor-pointer hover:border-[#F67D31] text-[#00205B]"
-                >
-                  <h2 className="font-bold text-lg text-left">{key}</h2>
-                  <div className="flex flex-wrap items-center text-sm font-semibold mt-2 text-center">
-                    <p className="bg-slate-700 p-2 text-white">
-                      Calories: {nut ? nut.Calories : "Not Available"}
-                    </p>
-                    <p className="bg-orange-600 p-2 text-white">
-                      Protein: {nut ? nut.Protein : "Not Available"}
-                    </p>
-                    <p className="bg-blue-700 p-2 text-white">
-                      Carb: {nut ? nut["Total Carbohydrates"] : "Not Available"}
-                    </p>
-                    <p className="bg-slate-500 p-2 text-white">
-                      Fat: {nut ? nut["Total Fat"] : "Not Available"}
-                    </p>
+              if(showSearch){
+                let nut = {};
+                trackedMeals[key].forEach((macro) => {
+                  nut[macro.name] = macro.value;
+                });
+                return (
+                  <div
+                    key={idx}
+                    className="w-full max-w-3xl text-center border-b-6 border-[#F67D31] bg-white shadow-lg pb-2 pt-2 transition duration-300 hover:bg-slate-200 cursor-pointer hover:border-[#F67D31] text-[#00205B]"
+                  >
+                    <h2 className="font-bold text-lg text-left">{key}</h2>
+                    <div className="flex flex-wrap items-center text-sm font-semibold mt-2 text-center">
+                      <p className="bg-slate-700 p-2 text-white">
+                        Calories: {nut ? nut.Calories : "Not Available"}
+                      </p>
+                      <p className="bg-orange-600 p-2 text-white">
+                        Protein: {nut ? nut.Protein : "Not Available"}
+                      </p>
+                      <p className="bg-blue-700 p-2 text-white">
+                        Carb: {nut ? nut["Total Carbohydrates"] : "Not Available"}
+                      </p>
+                      <p className="bg-slate-500 p-2 text-white">
+                        Fat: {nut ? nut["Total Fat"] : "Not Available"}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              );
+                );
+            }
             })}
           </div>
         </div>
