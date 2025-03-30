@@ -14,4 +14,3 @@ export default function Home() {
       hoomeals - by umdeaston28
     </h1>
   )
-}
